@@ -544,7 +544,7 @@ class _FlashState<T> extends State<Flash<T>> {
 
     if (widget.borderRadius != null) {
       child = ClipRRect(
-        borderRadius: widget.borderRadius,
+        borderRadius: widget.borderRadius!,
         child: child,
       );
     }
